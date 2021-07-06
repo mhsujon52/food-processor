@@ -4,7 +4,10 @@ body{
 }
 h1{
     font-size: 40px;
-    color: black;
+    color: rgb(240, 238, 238);
+}
+#we-are-focused{
+    color: white;
 }
 .rgba-color{
     color:rgba(209, 248, 116, 0.74);
@@ -13,9 +16,10 @@ p{
     color: black;
     size: 10px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
+    color: black;
 }
 .half-width{
     width: 50%;
@@ -33,10 +37,39 @@ section{
     font-weight: 550;
     font-size: 20px;
 }
+#we-are-focused{
+    color: rgb(255, 255, 255);
+}
 .first-banner{
     background-image: url(images/food/Project\ Cover4.png);
     background-repeat: no-repeat;
 }
 .second-banner{
     background-image: url(images/shapes/Frame\ 59.jpg)
+}
+.my-recipies{
+    color: rgb(14, 13, 13);
+}
+#recipie-color{
+    text-align: center;
+}
+.recipies-shadow{
+    box-shadow: 10px 10px 50px gray;
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 20px;
+}
+.recipe{
+    color: black;
+}
+.recipe2{
+    color: black;
+}
+.flower{
+    display: flex;
+    width: 50%;
 }
